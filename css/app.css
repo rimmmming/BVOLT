@@ -56,9 +56,10 @@ body {overflow:hidden;background-color: #f7f5f0;}
 .box__layer-content .box__nav .list-item:first-child .link:hover::after{content:'ABOUT';display:block;}
 .box__layer-content .box__nav .list-item:nth-child(2) .link:hover::after{content:'WORKS';display:block;}
 .box__layer-content .box__nav .list-item:nth-child(3) .link:hover::after{content:'CONTACT';display:block;}
-.box__mode-control{position:absolute;right:46px;bottom:46px}
-.box__mode-control .button__mode{font-size:14px;line-height:25px;vertical-align:top;color:#000;outline:none;}
-.box__circle-animation { overflow:hidden;display:inline-block;position: relative;width: 25px; height: 25px; margin-left:11px;background-color: #000; vertical-align:top;border-radius:13px;transition:background-color .1s linear;transition-delay:.2s;}
+.box__mode-control{position:absolute;right:3.3674vw;bottom:3.3674vw}
+.box__mode-control .button__mode{font-size:0.45rem;color:#000;outline:none;}
+.box__circle-animation { overflow:hidden;display:inline-block;position: relative;width: 1.8301vw;
+    height: 1.8301vw; margin-left:11px;background-color: #000; vertical-align:middle;border-radius:50%;transition:background-color .1s linear;transition-delay:.2s;}
 .box__circle-animation .box__pie { display:block;width: 50%; height: 100%; transform-origin: 100% 50%; position: absolute;}
 .box__circle-animation .box__pie-spinner { display:block;border-radius: 100% 0 0 100% / 50% 0 0 50%; z-index: 200; border-right: none;  }
 .box__circle-animation .box__pie-filler { display:block;border-radius: 0 100% 100% 0 / 0 50% 50% 0; left: 50%; opacity: 0; z-index: 100;  border-left: none; }
@@ -104,7 +105,7 @@ body {overflow:hidden;background-color: #f7f5f0;}
 .box__visual .link__visual .text__title{font-size: 3.5rem;line-height:3.5rem; z-index: 1; color: #000;} 
 .box__visual .link__visual .box__visual-bg{position:absolute;left:0;top:0;right:0;bottom:0;display:flex;justify-content:center;} 
 .box__visual .link__visual .box__line{position:absolute;left:-20px; bottom:0;width:auto;height:100%;background: url(../img/image_vertical-line.png) no-repeat 0 100%;background-size: 100% 100%;}
-.box__visual .link__visual .box__line .text{position:absolute;left:-2vh;bottom:21.5vh; font-size:0.45rem;font-weight:bold;color:#000;transform-origin: left top; transform: rotate( -90deg ) translateX(-100%)}
+.box__visual .link__visual .box__line .text{position:absolute;left:-2vh;bottom:21.5vh; font-size:0.35rem;font-weight:bold;color:#000;transform-origin: left top; transform: rotate( -90deg ) translateX(-100%)}
 .box__visual .link__visual .box__line img{height:100%}
 .box__visual .link__visual .box__video::after{content:'';opacity:0;position:absolute;left:0;top:0;right:0;bottom:0;transition: opacity 400ms linear .3s;}
 .box__visual.focus-in .link__visual .box__video::after{background-color:rgba(255, 255, 255, 0.5);}
@@ -114,7 +115,7 @@ body {overflow:hidden;background-color: #f7f5f0;}
 
 .box__visual .link__visual .box__visual-object{position:absolute;right:-50px;bottom:-68px;width:53vh;transform: translateZ(10px) scale(0.9); transform-style: preserve-3d;} 
 .box__visual .link__visual .box__visual-object img{width:100%}
-.box__pagination {position:absolute;right:0;bottom:26px; transform-style: preserve-3d;}
+.box__pagination {position:absolute;right:0;bottom:3.3854vh; transform-style: preserve-3d;}
 .box__pagination .text__num{position:relative;margin-right:134px;font-size:0.45rem;color:#000;vertical-align:top;}
 .box__pagination .text__num::after{content:'';display:inline-block;width:21px;height:9px;margin-left:12px;margin-top:6px;background:url(../img/image_triangle.png) no-repeat 0 0}
 .box__pagination .text__more{position:relative;font-size:0.45rem;color:#000;vertical-align:top;}
@@ -131,14 +132,14 @@ body {overflow:hidden;background-color: #f7f5f0;}
 .box__all-cases-inner .link__all-cases .text{position:relative;display:block;line-height:1.5rem;font-size:1.5rem;font-weight:bold;text-transform: uppercase;color:#000}
 .box__all-cases-inner .link__all-cases .text::before{content:'';position:absolute;left: -45px; top:50%;width:21px;height:9px;background:url(../img/image_triangle.png) no-repeat 0 0;vertical-align:top;}
 
-.section__footer{position:fixed;left:46px;bottom:46px}
+.section__footer{position:fixed;left:3.3674vw;bottom:5.9895vh}
 .section__footer .text__footer,
 .section__footer .text__call,
 .section__footer .text__fax,
 .section__footer .text__copy{position:absolute;font-size:0.3rem;line-height:0.5rem;white-space: nowrap;font-family: dico-typewriter-slab,mono; font-weight: 400; font-style: normal;color:#000}
-.section__footer .text__footer{left:0;bottom:138px}
-.section__footer .text__call{left:44px;bottom:83px;}
-.section__footer .text__fax{left:178px;bottom:83px;}
+.section__footer .text__footer{left:0;bottom:17.9687vh}
+.section__footer .text__call{left:5.7291vw;bottom:10.8072vh;}
+.section__footer .text__fax{left:13.0307vw;bottom:10.8072vh;}
 .section__footer .text__copy{left:0;bottom:0;}
 
 @keyframes scrolling-left1 {
@@ -214,26 +215,29 @@ body.darkmode{background-color: #000;}
 
 /* contact */
 .box__sub-content{display:flex;height:100vh;align-items: center;}
-.box__contact{position:relative;width:100vw;height:70vh;padding: 0 12vw 0 35vw;}
-.box__contact .text__title{position:absolute;left:19vh;top:10vh;font-size: 3.5rem;line-height: 3.5rem;z-index:10;}
+.box__contact{position:relative;width:100vw;height:100vh;}
+.box__contact-inner{padding-left: 32.7964vw; padding-top: 14.8437vh;    padding-right: 8.3455vw;}
+.box__contact .text__title{position:absolute;left:21vh;top:25vh;font-size: 3.5rem;line-height: 3.5rem;z-index:10;}
+.box__contact .box__map{width:58.8579vw;height:70.5729vh}
 .box__contact .box__map .box__image{position:relative;display:block;}
 .box__contact .box__map .box__image .link__map{position: absolute; left: 50%; top: 64%; width: 15%; height: 12%;font-size:0}
 .box__contact .box__map .box__image img{width:100%}
-.box__contact .box__address{position:relative;padding:30px 0;margin-top:22px;background-color: #fff;}
+.box__contact .box__map .box__image{background:url(../img/contact/map-white.png) no-repeat;background-size: 100% 100%;}
+.box__contact .box__address{position:relative;padding:30px 0;margin-top:4.059vh;background-color: #fff;}
 .box__contact .box__address .text{position:relative;font-size:0.5rem;font-weight:bold;}
-.box__contact .box__address .text::before{content:'';display:inline-block;width:21px;height:9px;margin:2px 20px 0 30px;margin-top:2px;background:url(../img/image_triangle.png) no-repeat 0 0;vertical-align:top;}
+.box__contact .box__address .text::before{content:'';display:inline-block;width:21px;height:9px;margin:0 20px 0 30px;background:url(../img/image_triangle.png) no-repeat 0 0;vertical-align:middle;}
 .box__contact .box__address .button__address{position:absolute;right:0;top:0;height: 100%;padding: 0 30px;font-size:0.5rem;color:#fff;font-weight:bold;background-color:#000;}
-.box__page-more {position:absolute;right:0;bottom:-70px; transform-style: preserve-3d;}
+.box__page-more {position:absolute;right:0; transform-style: preserve-3d;}
 .box__page-more .text__more::before{content:'';display:inline-block;width:21px;height:9px;margin-right:134px;margin-top:6px;background:url(../img/image_triangle.png) no-repeat 0 0}
-.box__page-more .text__more{position:relative;font-size:0.45rem;vertical-align:top;}
 .box__page-more .text__more .link{color:#000}
 .box__page-more .text__more::after{content:'';display:inline-block;width:21px;height:9px;margin-left:40px;margin-top:6px;background:url(../img/image_triangle.png) no-repeat 0 0}
 
-.box__contact .box__content-info{position: absolute; left:32vw; top: 30vh;}
+.box__contact .box__content-info{width: 58.8579vw; height: 70.5729vh;padding-top:26vh}
 .box__contact .box__content-info .text{display:block;font-size:1.5em;line-height:1.5rem;font-weight:bold;}
 .box__contact .box__content-info .text + .text{margin-top:30px}
 
 .darkmode .box__contact .text__title{color:#fff;}
+.darkmode .box__contact .box__map .box__image {background-image: url(../img/contact/map-black.png);}
 .darkmode .box__contact .box__address .button__address{background-color:#232020}
 .darkmode .box__page-more .text__more .link{color:#fff}
 .darkmode .box__page-more .text__more::before{background-image:url(../img/image_triangle-white.png);}
@@ -241,4 +245,4 @@ body.darkmode{background-color: #000;}
 .darkmode .box__contact .box__content-info .text{color:#fff}
 
 .box__sub .box__visual-content{padding:0}
-.box__sub .box__visual{margin:0}
+.box__sub .box__visual{display:block;margin:0}

@@ -12,11 +12,9 @@ $(document).ready(function() {
     if(theme === 'darkmode'){
         $('body').addClass('darkmode active');
         $('#button__mode-switch').find('.text').text('DAY MODE');
-        $('.box__map .box__image').find('.image').attr('src', '../img/contact/map-black.png')
     }else{
         $('body').removeClass('darkmode').addClass('daymode active');
         $('#button__mode-switch').find('.text').text('NIGHT MODE');
-        $('.box__map .box__image').find('.image').attr('src', '../img/contact/map-white.png')
     };
     $('.button__mode').on('click', function(e){
         e.preventDefault();
