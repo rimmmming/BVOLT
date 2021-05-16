@@ -136,10 +136,10 @@ body {overflow:hidden;background-color: #f7f5f0;}
 .section__footer .text__footer,
 .section__footer .text__call,
 .section__footer .text__fax,
-.section__footer .text__copy{position:absolute;font-size:0.3rem;line-height:0.5rem;white-space: nowrap;font-family: dico-typewriter-slab,mono; font-weight: 400; font-style: normal;color:#000}
+.section__footer .text__copy{position:absolute;font-size:0.3rem;line-height:0.4rem;white-space: nowrap;font-family: dico-typewriter-slab,mono; font-weight: 400; font-style: normal;color:#000}
 .section__footer .text__footer{left:0;bottom:17.9687vh}
 .section__footer .text__call{left:5.7291vw;bottom:10.8072vh;}
-.section__footer .text__fax{left:13.0307vw;bottom:10.8072vh;}
+.section__footer .text__fax{left:14vw;bottom:10.8072vh;}
 .section__footer .text__copy{left:0;bottom:0;}
 
 @keyframes scrolling-left1 {
